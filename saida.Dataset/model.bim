@@ -313,6 +313,14 @@
           }
         ],
         "lineageTag": "8665e0aa-be0b-4c85-969d-5dca2d6c6ad8",
+        "measures": [
+          {
+            "name": "countofcountries",
+            "expression": "count(financials[Country])",
+            "formatString": "0",
+            "lineageTag": "d9f80c6c-9623-41f5-85c2-78cfc0609ef9"
+          }
+        ],
         "partitions": [
           {
             "name": "financials",
